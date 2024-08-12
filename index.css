@@ -2,25 +2,15 @@
     margin: 0;
 }
 
-.list{
+
+.list {
     display: flex;
-    border: 1px solid red;
-    height: 300px;
-    flex-direction: row;
+    min-height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .item {
-    display: flex;
-
-    background-color: aqua;
-    border: 1px solid black;
-    width: 100px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    /* flex-grow: 1; */
+    background-color: blanchedalmond;
 }
-
